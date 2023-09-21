@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+  font-family: 'Bebas Neue', sans-serif;
+}
+.header-section header {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.list-profiles{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list-profiles li{
+  list-style: none;
+}
+.list-profiles li a{
+  text-decoration: none;
+}
+.list-profiles li a .profile{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.button-section{
+  text-align: center;
+}
